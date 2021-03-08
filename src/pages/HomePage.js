@@ -1,12 +1,14 @@
 import React from 'react'
 import GalleryImages from '../components/GalleryImages'
 import HeaderMessages from '../components/HeaderMessages';
+import OurProducts from '../components/OurProducts';
 
 function HomePage() {
     return (
-        <div className="bg-gray-100 w-screen min-h-full">
+        <div className="w-screen">
             <HeaderMessages/>
             <GalleryImages/>
+            <OurProducts/>
         </div>
     )
 }

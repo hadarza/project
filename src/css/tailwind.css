@@ -7,6 +7,12 @@
   .li-style{
      @apply px-4 py-8 font-semibold hover:border-indigo-200 hover:border-b-2 hover:pb-6 hover:cursor-pointer;
   }
+  .product{
+    @apply flex flex-col w-full h-32;
+  }
+  .product-title{
+    @apply absolute bottom-32 right-44 text-black font-black text-center font-secular select-none border-b-4 border-indigo-200  text-4xl;
+  }
 }
 
 
@@ -15,3 +21,5 @@
         @apply px-0 py-1;
     }
   }
+
+  
